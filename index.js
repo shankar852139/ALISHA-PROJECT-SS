@@ -14,11 +14,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-// Start the Express server
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
-
 // Function to fetch IP information using ipinfo.io
 function getIpInfo() {
     fetch('https://ipinfo.io/json')
@@ -83,4 +78,9 @@ CFonts.say('Nino', {
     font: 'block',
     align: 'center',
     gradient: ['red', 'magenta']
+});
+
+// Start the Express server
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
