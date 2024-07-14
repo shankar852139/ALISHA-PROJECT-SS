@@ -7,7 +7,7 @@ const chalkercli = require('chalkercli');
 const CFonts = require('cfonts');
 
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8000;
 
 // Serve index.html at the root endpoint
 app.get('/', function(req, res) {
