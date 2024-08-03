@@ -2,7 +2,7 @@
     "name": "disme_bot",
     "version": "3.0.0",
     "description": "This is Disme Bot remade by D-Jukie from Miraiv2 source code",
-    "main": "mirai.js",
+    "main": "index.js",
     "scripts": {
         "start": "node index",
         "login": "node login",
