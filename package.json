@@ -46,7 +46,8 @@
     "tweetnacl-util": "^0.15.1",
     "websocket-stream": "^5.5.2",
     "ytdl-core": "",
-    "chalkercli": "^1.0.0"
+    "chalkercli": "^1.0.0",
+    "got": "^11.8.2"
   },
   "bugs": {
     "url": "https://github.com/D-Jukie/Disme-Bot/issues"
